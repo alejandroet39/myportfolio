@@ -1,0 +1,94 @@
+.WebContainer{
+    width:max-content;
+    min-width:1000px;
+    height:auto;
+}
+
+
+
+
+
+
+body {
+    
+   
+    background-image: url("./images/japan.JPG"); 
+    
+}
+
+
+
+h1{ 
+    
+    font-size: 60px; 
+    background-color: rgba(241, 122, 86, 0.253);
+    color: rgb(184, 134, 134);
+    width: 1440px;
+    
+    
+    
+    
+
+
+}
+h2 {
+    font-size: 30px;
+    background-color: rgba(241, 122, 86, 0.253);
+    color: rgb(184, 134, 134);
+    width: 1440px;
+}
+
+.flexbox-container {
+    display:contents;
+    justify-content: space-between;
+ 
+    font-size: 25px;
+    display: block;
+    width: 100%;
+    color: rgb(184, 134, 134);
+    
+    
+    
+    
+}
+
+.flexbox-item {
+    width: 1220px;
+    margin: 40px;
+    border: 200px rgba(235, 235, 235, 0.863);
+   
+    font-size: 120%;
+    font-style:normal;
+    
+    
+}
+
+.flexbox-item-1 {
+    min-height: 25px;
+    flex-shrink: 0px;
+    display:block;
+}
+
+.flexbox-item-2 {
+    min-height: 50px;
+    flex-shrink: 0px;
+    display:block;
+    
+    
+}
+.flexbox-item-2 img {
+    image-resolution:calc(10%);
+    width: 20%;
+}
+.flexbox-item-3 {
+    min-height: 40px;
+    flex-shrink: 0px;
+    display:block;
+    background-color:rgba(241, 122, 86, 0.103);
+
+}
+
+
+
+
+
