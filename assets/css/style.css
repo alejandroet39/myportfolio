@@ -1,100 +1,55 @@
-.WebContainer{
-    width:max-content;
-    min-width:1000px;
-    height:auto;
-}
-
-
-
-
-
-
 body {
-    
-   
-    background-image: url("./images/japan.JPG"); 
-    
+  background-image: url("./images/BGimg.PNG");
 }
 
-
-
-h1{ 
-    
-    font-size: 60px; 
-    background-color: rgba(241, 122, 86, 0.253);
-    color: rgb(184, 134, 134);
-    width: 1440px;
-    
-    
-    
-    
-
-
+h1 {
+  font-size: 60px;
+  background-color: rgba(224, 117, 28, 0.685);
+  opacity: 70%;
+  color: rgb(255, 255, 255);
+  width: 730px;
 }
 h2 {
-    font-size: 30px;
-    background-color: rgba(241, 122, 86, 0.253);
-    color: rgb(184, 134, 134);
-    width: 1440px;
+  font-size: 30px;
+  background-color: rgba(7, 27, 58, 0.685);
+  opacity: 100%;
+  color: rgba(146, 184, 219, 0.904);
+  width: 730px;
 }
 
-.flexbox-container {
-    display:contents;
-    justify-content: space-between;
- 
-    font-size: 25px;
-    display: block;
-    width: 100%;
-    color: rgb(184, 134, 134);
-    
-}
-
-.flexbox-item {
-    width: 1220px;
-    margin: 40px;
-    border: 200px rgba(235, 235, 235, 0.863);
-   
-    font-size: 120%;
-    font-style:normal;
-    
-}
-
-.flexbox-item-1 {
-    min-height: 25px;
-    flex-shrink: 0px;
-    display:block;
-}
-
-.flexbox-item-2 {
-    min-height: 50px;
-    flex-shrink: 0px;
-    display:block;
-    
-    
-}
 .flexbox-item-2 img {
-    image-resolution:calc(10%);
-    width: 20%;
+  image-resolution: calc(50%);
+  width: 100%;
 }
 .flexbox-item-3 {
-    min-height: 40px;
-    flex-shrink: 0px;
-    display:block;
-    background-color:rgba(241, 122, 86, 0.103);
-
+  min-height: 40px;
+  flex-shrink: 0px;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.103);
 }
 
 .certificate-image {
-    width: 200px;
-    height: 100px;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.cloud {
-    width: 100%;
-    height: 200px;
-    background-color: aqua;
-    opacity: 50%;
+/* resubmittal styles */
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  opacity: 100%;
 }
 
-
-
+.nav-item {
+  color: rgb(145, 219, 241);
+  width: 33%;
+  outline: solid rgb(145, 219, 241);
+  background-color: rgba(224, 117, 28, 0.685);
+}
+.about-me-img {
+  width: 100%;
+}
