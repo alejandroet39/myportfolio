@@ -11,10 +11,13 @@ h1 {
 }
 h2 {
   font-size: 30px;
-  background-color: rgba(7, 27, 58, 0.685);
+
   opacity: 100%;
-  color: rgba(146, 184, 219, 0.904);
+  color: rgba(244, 246, 249, 0.904);
   width: 730px;
+}
+p {
+  color: aliceblue;
 }
 
 .flexbox-item-2 img {
@@ -25,7 +28,7 @@ h2 {
   min-height: 40px;
   flex-shrink: 0px;
   display: block;
-  background-color: rgba(255, 255, 255, 0.103);
+  background-color: rgb(253, 253, 253);
 }
 
 .certificate-image {
